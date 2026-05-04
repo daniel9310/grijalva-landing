@@ -1,41 +1,34 @@
 //import React from "react";
 
 function Hero() {
+   const phone = "5216620000000";
+
   return (
-    <div className="bg-light py-5">
-      <div className="container">
-        <div className="row align-items-center">
+    <div
+      className="text-white d-flex align-items-center"
+      style={{
+        height: "90vh",
+        backgroundImage:
+          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581092160607-5c7f1b0b5b3a')",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+      }}
+    >
+      <div className="container text-center">
+        <h1 className="display-4 fw-bold">
+          Expertos en Aire Acondicionado
+        </h1>
 
-          {/* Texto */}
-          <div className="col-md-6">
-            <h1 className="fw-bold">
-              Instalación y mantenimiento de aire acondicionado
-            </h1>
+        <p className="lead mt-3">
+          Instalación, mantenimiento y reparación con garantía.
+        </p>
 
-            <p className="text-muted mt-3">
-              Servicio profesional para hogares y empresas en tu zona.
-              Calidad, rapidez y garantía en cada instalación.
-            </p>
-
-            <a
-              href="https://wa.me/5216621044346"
-              className="btn btn-success btn-lg mt-3"
-              target="_blank"
-            >
-              Cotizar por WhatsApp
-            </a>
-          </div>
-
-          {/* Imagen */}
-          <div className="col-md-6 text-center mt-4 mt-md-0">
-            <img
-              src="https://images.unsplash.com/photo-1581092160607-5c7f1b0b5b3a"
-              className="img-fluid rounded shadow"
-              alt="Aire acondicionado"
-            />
-          </div>
-
-        </div>
+        <a
+          href={`https://wa.me/${phone}`}
+          className="btn btn-success btn-lg mt-4 px-4"
+        >
+          Cotizar por WhatsApp
+        </a>
       </div>
     </div>
   );

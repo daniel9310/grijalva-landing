@@ -29,10 +29,14 @@ function Services() {
         <div className="row">
           {services.map((service, index) => (
             <div className="col-md-3 mb-4" key={index}>
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
-                  <h5 className="card-title">{service.title}</h5>
-                  <p className="card-text">{service.description}</p>
+              <div className="card h-100 shadow border-0">
+                <div className="card-body text-center">
+
+                  <div style={{ fontSize: "40px" }}>❄️</div>
+
+                  <h5 className="mt-3">{service.title}</h5>
+                  <p className="text-muted">{service.description}</p>
+
                 </div>
               </div>
             </div>

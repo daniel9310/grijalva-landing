@@ -1,4 +1,5 @@
 //import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 function WhatsAppButton() {
   const phone = "5216620000000"; // CAMBIA ESTO
@@ -24,7 +25,7 @@ function WhatsAppButton() {
         boxShadow: "0 4px 6px rgba(0,0,0,0.3)"
       }}
     >
-      💬
+      <FaWhatsapp className="py-6" />
     </a>
   );
 }

@@ -1,9 +1,11 @@
 ///import React from "react";
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
       <div className="container">
-        <a className="navbar-brand" href="#">Grupo Grijalva</a>
+        <a className="navbar-brand fw-bold" href="#">
+          Grupo Grijalva
+        </a>
 
         <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
           <span className="navbar-toggler-icon"></span>

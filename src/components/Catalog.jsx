@@ -11,13 +11,13 @@ function Catalog() {
         <div className="row">
           {products.map((product) => (
             <div className="col-md-4 mb-4" key={product.id}>
-              <div className="card h-100 shadow-sm">
+              <div className="card h-100 shadow border-0">
 
                 <img
                   src={product.image}
                   className="card-img-top"
                   alt={product.name}
-                  style={{ height: "200px", objectFit: "cover" }}
+                  style={{ height: "220px", objectFit: "cover" }}
                 />
 
                 <div className="card-body text-center">
@@ -28,7 +28,7 @@ function Catalog() {
                   <a
                     href="https://wa.me/5216621044346"
                     target="_blank"
-                    className="btn btn-success mt-2"
+                    className="btn btn-outline-success mt-2"
                   >
                     Solicitar info
                   </a>
