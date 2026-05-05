@@ -4,6 +4,11 @@
   --dark: #1c1c1c;
   --light: #f8f9fa;
   --accent: #20c997;      /* verde para WhatsApp */
+   --blue-main: #0b5ed7;
+  --blue-dark: #084298;
+  --red-main: #dc3545;
+  --dark: #1c1c1c;
+  --light: #f8f9fa;
 }
 .hover-card {
   transition: all 0.3s ease;
@@ -15,4 +20,13 @@
 
 }body {
   background-color: #ffffff;
+}
+.section-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.section-dark {
+  background-color: #1c1c1c;
+  color: white;
 }

@@ -3,7 +3,7 @@ import { products } from "../data/products";
 
 function Catalog() {
   return (
-    <div className="bg-light py-5" id="catalog">
+    <div className="bg-light text-dark py-5" id="catalog">
       <div className="container">
 
         <h2 className="text-center mb-5">Catálogo</h2>
