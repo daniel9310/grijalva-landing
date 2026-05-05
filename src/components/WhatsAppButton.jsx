@@ -8,22 +8,20 @@ function WhatsAppButton() {
     <a
       href={`https://wa.me/${phone}`}
       target="_blank"
-      style={{
-        position: "fixed",
-        bottom: "20px",
-        right: "20px",
-        backgroundColor: "#25D366",
-        color: "white",
-        borderRadius: "50%",
-        width: "60px",
-        height: "60px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontSize: "30px",
-        textDecoration: "none",
-        boxShadow: "0 4px 6px rgba(0,0,0,0.3)"
-      }}
+     style={{
+      position: "fixed",
+      bottom: "20px",
+      right: "20px",
+      backgroundColor: "#25D366",
+      borderRadius: "50%",
+      width: "65px",
+      height: "65px",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      fontSize: "28px",
+      boxShadow: "0 6px 10px rgba(0,0,0,0.3)"
+    }}
     >
       <FaWhatsapp className="py-6" />
     </a>

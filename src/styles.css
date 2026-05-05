@@ -1,0 +1,18 @@
+:root {
+  --primary: #0d6efd;     /* azul principal */
+  --secondary: #0b5ed7;   /* azul fuerte */
+  --dark: #1c1c1c;
+  --light: #f8f9fa;
+  --accent: #20c997;      /* verde para WhatsApp */
+}
+.hover-card {
+  transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+
+}body {
+  background-color: #ffffff;
+}

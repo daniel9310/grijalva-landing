@@ -8,8 +8,8 @@ function Hero() {
       className="text-white d-flex align-items-center"
       style={{
         height: "90vh",
-        backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581092160607-5c7f1b0b5b3a')",
+        background:
+          "linear-gradient(rgba(13,110,253,0.8), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1581092160607-5c7f1b0b5b3a')",
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}

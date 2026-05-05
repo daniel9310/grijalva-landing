@@ -1,10 +1,11 @@
 ///import React from "react";
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+    <nav className="navbar navbar-expand-lg navbar-dark shadow-sm py-3"
+     style={{ backgroundColor: "var(--primary)" }}>
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#">
-          Grupo Grijalva
+        <a className="navbar-brand fw-bold d-flex align-items-center" href="#">
+          ❄️ Grupo Grijalva
         </a>
 
         <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
