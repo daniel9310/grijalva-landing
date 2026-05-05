@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark shadow-sm py-3"
      style={{ backgroundColor: "var(--primary)" }}>
-      <div className="container">
+      <div className="container-fluid">
         <a className="navbar-brand fw-bold d-flex align-items-center" href="#">
           ❄️ Grupo Grijalva
         </a>

@@ -5,7 +5,7 @@ function Hero() {
 
   return (
     <div
-      className="text-white d-flex align-items-center"
+      className="text-white d-flex align-items-center container-fluid text-center"
       style={{
         height: "90vh",
         background:
@@ -14,7 +14,7 @@ function Hero() {
         backgroundPosition: "center"
       }}
     >
-      <div className="container text-center">
+      <div className="container-fluid px-5">
         <h1 className="display-4 fw-bold">
           Expertos en Aire Acondicionado
         </h1>
