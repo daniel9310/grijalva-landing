@@ -1,7 +1,7 @@
 :root {
-  --primary: #0d6efd;     /* azul principal */
-  --secondary: #0b5ed7;   /* azul fuerte */
-  --dark: #1c1c1c;
+  /**--primary: #0d6efd;     /* azul principal */
+  /*--secondary: #0b5ed7;   /* azul fuerte */
+  /*--dark: #1c1c1c;
   --light: #f8f9fa;
   --accent: #20c997;      /* verde para WhatsApp */
    --blue-main: #0b5ed7;

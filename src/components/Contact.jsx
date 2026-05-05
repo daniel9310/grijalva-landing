@@ -7,7 +7,9 @@ function Contact() {
     <div className="container-fluid py-5 bg-light" id="contact">
       <div className="container">
 
-        <h2 className="text-center mb-5">Contacto</h2>
+        <h2 className="text-center mb-5" style={{ color: "var(--blue-main)" }}>
+          Contacto
+        </h2>
 
         <div className="row">
 

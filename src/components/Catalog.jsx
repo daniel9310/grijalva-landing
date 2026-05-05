@@ -23,7 +23,9 @@ function Catalog() {
                 <div className="card-body text-center">
                   <h5 className="card-title">{product.name}</h5>
                   <p className="text-muted">{product.brand}</p>
-                  <h6 className="fw-bold text-primary">{product.price}</h6>
+                  <h6 className="fw-bold" style={{ color: "var(--blue-main)" }}>
+                    {product.price}
+                  </h6>
 
                   <a
                     href="https://wa.me/5216621044346"
